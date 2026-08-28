@@ -159,8 +159,9 @@ a{
   border-color:var(--accent)
 }
 
+/* Reduced space between major sections */
 .section{
-  padding:92px 0
+  padding:64px 0
 }
 
 .section-alt{
@@ -312,6 +313,12 @@ a{
   color:var(--accent);
   margin:12px 0 0;
   font-weight:700
+}
+
+/* Working-paper status appears on the same line as the authors */
+.paper-status{
+  color:#777;
+  font-style:italic
 }
 
 .status{
@@ -709,7 +716,7 @@ a{
   }
 
   .section{
-    padding:64px 0
+    padding:48px 0
   }
 
   .interest-grid{
