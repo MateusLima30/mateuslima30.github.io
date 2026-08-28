@@ -193,10 +193,10 @@ a{
 }
 
 .interest-card{
-  padding:30px 24px 34px;
+  padding:22px 36px 24px;
   text-decoration:none;
   border-right:1px solid var(--line);
-  min-height:180px;
+  min-height:130px;
   transition:background .2s ease
 }
 
@@ -210,9 +210,9 @@ a{
 
 .interest-number{
   display:block;
-  font-size:11px;
+  font-size:10px;
   color:#999;
-  margin-bottom:36px
+  margin-bottom:22px
 }
 
 .interest-card h2{
@@ -269,7 +269,7 @@ a{
   on the Research page only.
 */
 .section:has(.research-heading){
-  padding:32px 0
+  padding:8px 0
 }
 
 
@@ -730,9 +730,9 @@ a{
   }
 
   /* Tighter spacing between Research page sections on mobile */
-  .section:has(.research-heading){
-    padding:28px 0
-  }
+.section:has(.research-heading){
+  padding:8px 0
+}
 
   .interest-grid{
     grid-template-columns:1fr
