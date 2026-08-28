@@ -244,10 +244,23 @@ a{
   color:#555
 }
 
+
+/* Research and teaching sections */
+
 .split-section{
-  display:grid;
-  grid-template-columns:340px 1fr;
-  gap:74px
+  display:block
+}
+
+/* Section headings sit directly above their content */
+.split-section > div:first-child .section-label{
+  text-transform:none;
+  letter-spacing:0;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:32px;
+  line-height:1.15;
+  font-weight:400;
+  color:var(--ink);
+  margin:0 0 18px
 }
 
 .display-title{
@@ -264,7 +277,6 @@ a{
   gap:0
 }
 
-/* Reduced vertical spacing between publications */
 .pub-item{
   padding:18px 0;
   border-top:1px solid var(--line)
@@ -618,7 +630,6 @@ a{
   }
 
   .about-grid,
-  .split-section,
   .highlight-grid,
   .two-col-dark,
   .cv-summary,
