@@ -129,7 +129,8 @@ a{
   font-size:20px;
   line-height:1.35;
   max-width:650px;
-  margin:0 0 24px
+  margin:0 0 24px;
+  color:var(--accent)
 }
 
 .intro{
@@ -259,15 +260,13 @@ a{
   font-size:32px;
   line-height:1.15;
   font-weight:400;
-  margin:0 0 18px;
+  margin:0 0 10px;
   color:var(--ink)
 }
 
 
-/*
-  Reduce spacing between the major sections
-  on the Research page only.
-*/
+/* Substantially reduced spacing between Research sections */
+
 .section:has(.research-heading){
   padding:8px 0
 }
@@ -729,10 +728,11 @@ a{
     padding:48px 0
   }
 
-  /* Tighter spacing between Research page sections on mobile */
-.section:has(.research-heading){
-  padding:8px 0
-}
+  /* Very compact Research page sections on mobile */
+
+  .section:has(.research-heading){
+    padding:8px 0
+  }
 
   .interest-grid{
     grid-template-columns:1fr
