@@ -251,17 +251,18 @@ a{
   display:block
 }
 
-/* Section headings sit directly above their content */
-.split-section > div:first-child .section-label{
-  text-transform:none;
-  letter-spacing:0;
+
+/* Research page section headings */
+
+.research-heading{
   font-family:Georgia,"Times New Roman",serif;
   font-size:32px;
   line-height:1.15;
   font-weight:400;
-  color:var(--ink);
-  margin:0 0 18px
+  margin:0 0 18px;
+  color:var(--ink)
 }
+
 
 .display-title{
   font-family:Georgia,"Times New Roman",serif;
@@ -730,6 +731,10 @@ a{
 
   .display-title{
     font-size:38px
+  }
+
+  .research-heading{
+    font-size:28px
   }
 
   .award-grid{
